@@ -15,6 +15,8 @@ import java.time.LocalDate;
 @AllArgsConstructor
 public class UserCreateRequest {
 
+    private String username;
+
     @NotBlank(message = "Full name is required")
     private String fullName;
 
